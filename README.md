@@ -17,28 +17,37 @@ Download all files in this project and save them on the local folder. To run the
 Any browser that supports HTML.
 ## Answers
 ## Question 2
-1.-<form> – Required careful structuring of labels, inputs, and validation to ensure usability.
-  -<img> – Needed styling for responsiveness, alignment, and accessibility (alt text).
-  -<nav> – Implementing a horizontal navigation bar with hover effects and centered links was complex.
-  -<aside> – Integrating side content (tips) without breaking the main flow of services required layout adjustments.
-  -<footer> – Combining copyright, email links, and “Back to Top” navigation while maintaining consistent styling.
-2.-<header> – Contained the navigation menu at the top of the page.
-  -<section> – Divided the site into logical blocks: Home, Services, and Contact.
-  -<article> – Used for individual service descriptions (Engine Diagnostics, Brake System Analysis, Battery & Electrical).
-  -<aside> – Provided additional tips to complement the main service content.
-  -<footer> – Displayed copyright, contact email, and navigation back to the top.
+1.<form> – Required structuring of labels, inputs, and validation for usability.
+
+<img> – Needed styling for alignment, responsiveness, and accessibility (alt text).
+
+<nav> – Implementing a centered navigation bar with hover effects using Flexbox was complex.
+
+<aside> – Integrating side content (tips) without breaking the main service flow required layout adjustments.
+
+<footer> – Combining copyright, email links, and “Back to Top” navigation while maintaining consistent styling.
+2.<header> – Contained the navigation menu at the top of the page.
+
+<section> – Divided the site into logical blocks: Home, Services, and Contact.
+
+<article> – Used for individual service descriptions (Engine Diagnostics, Brake System Analysis, Battery & Electrical).
+
+<aside> – Provided additional tips to complement the main service content.
+
+<footer> – Displayed copyright, contact email, and navigation back to the top.
 3.<section> was the most useful for organizing layout.
 
-  Reason: It allowed grouping related content into distinct blocks (Home, Services, Contact), making the page easy to navigate and visually structured.
+Reason: Grouped related content into distinct blocks (Home, Services, Contact), making the page easy to navigate and visually structured.
 ## Question 3
+ 1.id – Used for linking navigation items (href="#home", href="#services", href="#contact") to specific sections.
 
+   src – Enabled the display of the diagnostic image (src="image1.png").
 
-1.-id – Used for linking navigation items (href="#home", href="#services", href="#contact") to specific sections.
-  -src – Enabled the display of the diagnostic image (src="image1.png").
-  -type – Defined input types (text, email, submit) to ensure correct data entry and form submission.
-2.-id is for unique identification, while class is for reusable styling patterns.
-3.-alt attribute in the <img> tag was most impactful.
-Reason: It provided descriptive text (“Mechanic diagnosing a Toyota vehicle”)
+   type – Defined input types (text, email, submit) to ensure correct data entry and form submission
+ 2.id is for unique identification, while class is for reusable styling patterns.
+ 3.alt attribute in the <img> tag was most impactful.
+
+Reason: Provided descriptive text (“Mechanic diagnosing a Toyota vehicle”
 ## Question 4
 1. Planning the Website Structure
   -I began by outlining the main sections: Home, Services, Contact, and Footer.
