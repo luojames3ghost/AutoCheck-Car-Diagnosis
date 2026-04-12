@@ -1,0 +1,150 @@
+<html>
+   <head>
+       <meta name="description" content="Car Diagnosis and Vehicle Health Monitoring Website">
+	   <title>AutoCheck Car Diagnosis</title>
+	   <style>
+	      body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+          }
+		  
+	      header {
+           background: #222;
+           color: #fff;
+           padding: 10px 0;
+          }
+		  
+		  nav ul {
+           list-style: none;
+           display: flex;
+           justify-content: center;
+           margin: 0;
+           padding: 0;
+         }
+
+         nav ul li {
+           margin: 0 15px;
+         }
+
+         nav ul li a {
+          color: #fff;
+          text-decoration: none;
+          font-weight: bold;
+        }
+
+        nav ul li a:hover {
+          color: #ffcc00;
+        }
+		
+        form {
+         display: flex;
+         flex-direction: column;
+        }
+
+        label {
+          margin-top: 10px;
+          font-weight: bold;
+        }
+		
+        input, textarea, button {
+         padding: 10px;
+         margin-top: 5px;
+         border: 1px solid #ccc;
+         border-radius: 4px;
+         font-size: 1em;
+        }
+
+        button {
+         background: #222;
+         color: #fff;
+         cursor: pointer;
+         margin-top: 15px;
+        }
+
+        button:hover {
+         background: #ffcc00;
+         color: #222;
+        }
+
+        footer {
+         background: #222;
+         color: #fff;
+         text-align: center;
+         padding: 15px;
+       }
+
+       footer a {
+        color: #ffcc00;
+        text-decoration: none;
+       }
+
+       footer a:hover {
+        text-decoration: underline;
+       }
+	  </style>
+   </head>
+   <body>
+       
+	    <header id="top">
+          <nav>
+             <ul>
+                <li><a href="#home" title="Home Section">Home</a></li>
+                <li><a href="#services" title="Diagnosis Services">Services</a></li>
+                <li><a href="#contact" title="Contact Us">Contact</a></li>
+            </ul>
+         </nav>
+       </header>
+	   
+	   <section id="home">
+          <h1 align="center">AutoCheck Car Diagnosis</h1>
+          <p>Ensuring your vehicle runs <strong>smoothly</strong> and safely with modern diagnostic technology.</p>
+          <img style="display: block;margin: 20px auto;border-radius: 8px;box-shadow: 0 2px 8px rgba(0,0,0,0.2);" src="image1.png" alt="Mechanic diagnosing a Toyota vehicle" width="500" height="300">
+       </section>
+	   
+	    <section id="services">
+          <h2 align="center">Our Services</h2>
+          <article>
+             <h3>Engine Diagnostics</h3>
+             <p>Identify engine faults using advanced OBD-II scanning tools and professional diagnostic tablets.</p>
+          </article>
+          <article>
+             <h3>Brake System Analysis</h3>
+             <p>Check brake pads, fluid, and system performance for safety.</p>
+          </article>
+          <article>
+            <h3>Battery & Electrical</h3>
+            <p>Test battery health and electrical circuits for reliability.</p>
+          </article>
+          <aside>
+            <p>Tip: Regular diagnostics extend your car’s lifespan.</p>
+          </aside>
+        </section>
+		
+		<section id="contact">
+           <h2 align="center">Contact Us</h2>
+           <p>You can reach me directly at: +260771519899</p>
+           <form action="" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required>
+              <label for="car">Car Model:</label>
+              <input type="text" id="car" name="car" placeholder="Enter car model">
+              <label for="issue">Describe Issue:</label>
+              <textarea id="issue" name="issue" rows="5" cols="40" placeholder="Describe your car issue"></textarea>
+              <button type="submit">Submit</button>
+           </form>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+           <p>&copy; 2026 AutoCheck Diagnosis. All rights reserved.</p>
+            <p>Email: <a href="mailto:luojames3@gmail.com">luojames3@gmail.com</a></p>
+           <a href="#top">Back to Top</a>
+        </footer>
+   </body>
+</html>
