@@ -1,3 +1,6 @@
+Name: James Luwo
+Sin: 2506345713
+GitHub Repository:https://github.com/luojames3ghost/AutoCheck-Car-Diagnosis
 # AutoCheck Car Diagnosis
 Car Diagnosis and Vehicle Health Monitoring Website. This project was an assignment in Interactive Web Development
 
